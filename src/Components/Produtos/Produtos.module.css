@@ -1,0 +1,12 @@
+.produtos {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.875em;
+}
+
+.semProduto {
+  grid-column: 1 / -1;
+  text-align: center;
+  color: red;
+  font-weight: 600;
+}

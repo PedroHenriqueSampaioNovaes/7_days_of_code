@@ -1,0 +1,44 @@
+.introSecao {
+  text-align: center;
+}
+
+.subtitulo {
+  font-size: 1.375em;
+}
+
+.titulo {
+  font-size: 5.125em;
+  margin-top: 12px;
+  margin-bottom: 0.3125em;
+}
+
+.groupFilter {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 1.5em 0;
+}
+
+.groupFilter label {
+  margin-right: 0.5em;
+}
+
+.groupFilter select {
+  color: #202020;
+  padding: 0.875em 0;
+  font-family: var(--first-type);
+  font-size: 1em;
+  outline-color: #ffcb47;
+  border: none;
+}
+
+.groupFilter select option {
+  color: #202020;
+}
+
+.groupFilter input {
+  font-family: var(--first-type);
+  font-size: 1em;
+  padding: 0.875em;
+  outline-color: #ffcb47;
+}

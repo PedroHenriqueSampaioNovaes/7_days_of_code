@@ -1,0 +1,34 @@
+.produto {
+  display: flex;
+}
+
+.produto > img {
+  width: 50%;
+  object-fit: contain;
+}
+
+.descricao {
+  padding: 1.6875em 1.6875em 1.6875em 0;
+}
+
+.name {
+  font-family: var(--second-type);
+  font-size: 2em;
+  margin-bottom: 8px;
+}
+
+.comprar {
+  display: inline-block;
+  margin-top: 24px;
+  color: #ffcb47;
+}
+
+.comprar::after {
+  content: '';
+  display: inline-block;
+  width: 16px;
+  height: 10px;
+  background: url('../../Assets/icons/seta.svg') no-repeat;
+  margin-left: 1.625em;
+  vertical-align: middle;
+}

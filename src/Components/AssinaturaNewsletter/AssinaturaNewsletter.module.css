@@ -1,0 +1,61 @@
+.newsletter {
+  display: flex;
+  margin-top: 150px;
+  position: relative;
+}
+
+.newsletter::after {
+  content: '';
+  background-image: url('../../Assets/hero-image.png');
+  width: 787px;
+  height: 975px;
+  position: absolute;
+  top: -215px;
+  right: 55px;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.introducao {
+  width: 50%;
+}
+
+.textoInicial {
+  font-size: 1.375em;
+}
+
+.textoPrincipal {
+  margin-top: 12px;
+  margin-bottom: 24px;
+}
+
+.descricao {
+  line-height: 1.625em;
+  max-width: 30em;
+}
+
+.form {
+  margin-top: 2.3125em;
+  display: flex;
+}
+
+.form input[type='email'] {
+  padding: 1.5625em 3.4375em;
+  min-width: 390px;
+  color: #202020;
+  outline-color: #ffcb47;
+  background: url('../../Assets/icons/mail.svg') no-repeat 16px;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.form input[type='email']::placeholder {
+  opacity: 0.5;
+}
+
+.form .callToAction {
+  background: #ffcb47;
+  box-shadow: 10px 10px 30px #ffcb474d;
+  color: #fff;
+  min-width: 194px;
+  cursor: pointer;
+}

@@ -1,0 +1,46 @@
+.minhaPlanta {
+  max-width: 62.1875em;
+  margin: 225px auto 45px auto;
+  display: flex;
+  background: #fff;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+}
+
+.minhaPlanta > img {
+  width: 58%;
+}
+
+.comoConseguir {
+  width: 42%;
+  padding: 58px 0 42px 32px;
+}
+
+.comoConseguir > p {
+  font-size: 1.375em;
+  margin-bottom: 12px;
+}
+
+.comoConseguir > h2 {
+  font-size: 2.625em;
+}
+
+.lista > li {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
+.lista li > div {
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: #ffcb47;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.lista li > p {
+  font-size: 1.375em;
+}
